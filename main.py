@@ -38,7 +38,7 @@ except Exception as e:
     st.write("Porfavor suba su archivo a la aplicaión")
 
 
-# seleccion de graficoooo
+# seleccion de grafico
 
 sel_graf = st.sidebar.selectbox(label="Selecciona el tipo de gráfico",
                                 options=["barras","histograma"])
